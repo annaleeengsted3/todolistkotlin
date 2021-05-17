@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="nightTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:colorBackground">@color/gray</item>
+        <item name="cardBackgroundColor">@color/darkwhite</item>
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="cardViewStyle">@style/darkCard</item>
+        <item name="colorSecondary">@color/purple_700</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+    <style name="darkCard" parent="CardView">
+        <item name="cardBackgroundColor">@color/darkwhite</item>
+    </style>
+
+    <style name="standardTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/lightYellow</item>
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="colorPrimaryVariant">@color/darkYellow</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="cardViewStyle">@style/lightCard</item>
+    </style>
+    <style name="lightCard" parent="CardView">
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+</resources>
